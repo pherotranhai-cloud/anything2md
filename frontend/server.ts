@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import { createServer as createViteServer } from 'vite';
 import path from 'path';
-import apiRoutes from './frontend/src/api/routes';
+import apiRoutes from './src/api/routes';
 
 async function startServer() {
   const app = express();
